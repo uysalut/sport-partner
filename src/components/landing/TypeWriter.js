@@ -39,7 +39,7 @@ export default class TypeWriter extends Component {
           )
         });
       }
-    }, 5000);
+    }, 2500);
     this.setState((state, props) => {
       timeouts: state.timeouts.push(to);
     })
